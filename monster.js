@@ -1,7 +1,7 @@
 let booleanVar= false;
 
 function boo(){
-    if (booleanVar == false) {
+    if (booleanVar === false) {
         document.getElementById("gato").style.display = "block";
         document.getElementById("bo").style.display = "none";
         booleanVar = true;
