@@ -2,13 +2,13 @@ let booleanVar= false;
 
 function boo(){
     if (booleanVar == false) {
-        document.getElementById().style.display = "block";
-        document.getElementById().stye.display = "none";
+        document.getElementById("gato").style.display = "block";
+        document.getElementById("bo").style.display = "none";
         booleanVar = true;
     }
     else{
-        document.getElementById().style.display = "none";
-        document.getElementById().style.display = "block";
+        document.getElementById("gato").style.display = "none";
+        document.getElementById("bo").style.display = "block";
         booleanVar = false;
     }
 }
