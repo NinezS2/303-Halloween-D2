@@ -1,9 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 nav ul {
-    display: inline;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding: 5vw;
+}
+
+#page-wrapper{
+    width: 90%;
+    margin: 0 auto;
 }
 
 main{
     height:100vh;
     width: 80vw;
+    @font-face {
+        font-family: 'Creepster';
+        src: url('https://fonts.google.com/specimen/Creepster?preview.script=Latn');
+    }
+    p {
+        font: 400 14px 'Creepster', cursive;
+    }
 }
+img{
+    max-width: 80%;
+    height: auto;
+}
+
